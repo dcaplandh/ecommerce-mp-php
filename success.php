@@ -44,7 +44,7 @@
 <body class="as-theme-light-heroimage">
 <h2>PAGO EXITOSO</h2>
 <?php
-    echo "Payment Method ID:" . $_GET['payment_method_id'] . "<br>";
+    echo "Payment Method:" . $_GET['payment_type'] . "<br>";
     echo "External Reference:" . $_GET['external_reference'] . "<br>";
     echo "Payment ID:" . $_GET['collection_id'] . "<br>";
 ?>
