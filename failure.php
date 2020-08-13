@@ -42,12 +42,7 @@
 
     <script src="https://www.mercadopago.com/v2/security.js" view="home"></script>
 <body class="as-theme-light-heroimage">
-<h2>PAGO RECHAZADO</h2>
-<?php
-    echo "Payment Method:" . $_GET['payment_type'] . "<br>";
-    echo "External Reference:" . $_GET['external_reference'] . "<br>";
-    echo "Payment ID:" . $_GET['collection_id'] . "<br>";
-?>
+
     <div class="stack">
         
         <div class="as-search-wrapper" role="main">
@@ -85,7 +80,12 @@
                                             Smartphones
                                         </h2>
                                     </button>
-
+                                    <h2>PAGO RECHAZADO</h2>
+<?php
+    echo "Payment Method:" . $_GET['payment_type'] . "<br>";
+    echo "External Reference:" . $_GET['external_reference'] . "<br>";
+    echo "Payment ID:" . $_GET['collection_id'] . "<br>";
+?>
 
                                 </div>
 
